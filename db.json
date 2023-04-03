@@ -3,7 +3,7 @@
     {
       "firstname": "M",
       "lastname": "Mudasir",
-      "gmail": "mud@gmail.com",
+      "email": "m@gmail.com",
       "age": "25",
       "dateofbirth": "2023-04-18T19:00:00.000Z",
       "cnic": "251",
@@ -13,7 +13,7 @@
     {
       "firstname": "Umer",
       "lastname": "IK",
-      "email": "",
+      "email": "khan@gmail.com",
       "age": "30",
       "dateofbirth": "2023-04-10T19:00:00.000Z",
       "cnic": "525",
@@ -96,9 +96,19 @@
       "email": "umer@gmail.com",
       "age": "40",
       "dateofbirth": "2021-10-13T19:00:00.000Z",
-      "cnic": "",
+      "cnic": "2555852265656",
       "gender": "Male",
       "id": 13
+    },
+    {
+      "firstname": "ammar",
+      "lastname": "ahmad",
+      "email": "ammar@gmail.com",
+      "age": "25",
+      "dateofbirth": "2023-04-09T19:00:00.000Z",
+      "cnic": "3520216685238",
+      "gender": "Female",
+      "id": 14
     }
   ]
 }
