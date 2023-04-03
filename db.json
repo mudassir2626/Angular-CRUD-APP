@@ -1,0 +1,104 @@
+{
+  "students": [
+    {
+      "firstname": "M",
+      "lastname": "Mudasir",
+      "gmail": "mud@gmail.com",
+      "age": "25",
+      "dateofbirth": "2023-04-18T19:00:00.000Z",
+      "cnic": "251",
+      "gender": "Male",
+      "id": 3
+    },
+    {
+      "firstname": "Umer",
+      "lastname": "IK",
+      "email": "",
+      "age": "30",
+      "dateofbirth": "2023-04-10T19:00:00.000Z",
+      "cnic": "525",
+      "gender": "Male",
+      "id": 4
+    },
+    {
+      "firstname": "Mudassir",
+      "lastname": "ramzan",
+      "email": "xyz@gmail.com",
+      "age": "30",
+      "dateofbirth": "2023-04-24T19:00:00.000Z",
+      "cnic": "897",
+      "gender": "Male",
+      "id": 5
+    },
+    {
+      "firstname": "Mudassir",
+      "lastname": "Ramzan",
+      "email": "mud@123.com",
+      "age": "25",
+      "dateofbirth": "2023-04-10T19:00:00.000Z",
+      "cnic": "2522",
+      "gender": "Male",
+      "id": 6
+    },
+    {
+      "firstname": "Ali",
+      "lastname": "Ahmad",
+      "email": "a@gmail.com",
+      "age": "25",
+      "dateofbirth": "2023-04-11T19:00:00.000Z",
+      "cnic": "2551",
+      "gender": "Male",
+      "id": 8
+    },
+    {
+      "firstname": "New ",
+      "lastname": "Record",
+      "email": "a@gmail.com",
+      "age": "230",
+      "dateofbirth": "2023-04-25T19:00:00.000Z",
+      "cnic": "5",
+      "gender": "Male",
+      "id": 9
+    },
+    {
+      "firstname": "Mudassir",
+      "lastname": "Ramzan",
+      "email": "Mudassir@gmail.com",
+      "age": "25",
+      "dateofbirth": "2023-04-19T19:00:00.000Z",
+      "cnic": "255",
+      "gender": "Male",
+      "id": 10
+    },
+    {
+      "firstname": "Mudassir",
+      "lastname": "Ramzan",
+      "email": "m@gmail.com",
+      "age": "24",
+      "dateofbirth": "2023-04-19T19:00:00.000Z",
+      "cnic": "255",
+      "gender": "Male",
+      "id": 11
+    },
+    {
+      "firstname": "Ali",
+      "lastname": "Ahmad",
+      "email": "Ali@gmail.com",
+      "age": "25",
+      "dateofbirth": "2023-04-01T19:00:00.000Z",
+      "cnic": "800",
+      "gender": "Male",
+      "id": 12
+    },
+    {
+      "firstname": "Umer",
+      "lastname": "Nadeem",
+      "email": "umer@gmail.com",
+      "age": "40",
+      "dateofbirth": "2021-10-13T19:00:00.000Z",
+      "cnic": "",
+      "gender": "Male",
+      "id": 13
+    }
+  ]
+}

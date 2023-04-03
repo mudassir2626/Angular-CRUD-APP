@@ -1,0 +1,22 @@
+.SaveFormMainDiv{
+    padding-bottom: 5px !important;
+}
+.btncolorSucess{
+    background-color: rgb(48, 248, 48) 
+}
+.row{
+    display: flex;
+    gap: 10px;
+    padding: 4px;
+}
+mat-form-field{
+    width: 100%;
+    padding: 0;
+}
+.action{
+padding: 0px, 30px 20px;
+ 
+}
+.action>button{
+    flex:1;
+}
