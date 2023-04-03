@@ -15,13 +15,13 @@ export class AppComponent implements OnInit {
 
   displayedColumns: string[] = ['id', 
   'firstname',
-  'lastname',
-  'email', 
-  'age', 
-  'dateofbirth',
-  'cnic', 
-  'gender',
-  'Actions'
+   'lastname',
+    'email', 
+    'age', 
+    'dateofbirth',
+     'cnic', 
+     'gender',
+      'Actions'
     ];
   dataSource!: MatTableDataSource<any>;
 
@@ -65,6 +65,7 @@ export class AppComponent implements OnInit {
     if (this.dataSource.paginator) {
       this.dataSource.paginator.firstPage();
     }
+
   }
 
   DeleteStudent(id: number) {

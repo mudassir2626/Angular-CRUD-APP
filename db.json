@@ -1,7 +1,7 @@
 {
   "students": [
     {
-      "firstname": "M",
+      "firstname": "Ali",
       "lastname": "Mudasir",
       "email": "m@gmail.com",
       "age": "25",
@@ -41,23 +41,13 @@
       "id": 6
     },
     {
-      "firstname": "Ali",
-      "lastname": "Ahmad",
-      "email": "a@gmail.com",
-      "age": "25",
-      "dateofbirth": "2023-04-11T19:00:00.000Z",
-      "cnic": "2551",
-      "gender": "Male",
-      "id": 8
-    },
-    {
       "firstname": "New ",
       "lastname": "Record",
       "email": "a@gmail.com",
       "age": "230",
       "dateofbirth": "2023-04-25T19:00:00.000Z",
       "cnic": "5",
-      "gender": "Male",
+      "gender": "Female",
       "id": 9
     },
     {
@@ -101,13 +91,13 @@
       "id": 13
     },
     {
-      "firstname": "ammar",
-      "lastname": "ahmad",
-      "email": "ammar@gmail.com",
+      "firstname": "Ikram",
+      "lastname": "Khan",
+      "email": "khan@gmail.com",
       "age": "25",
-      "dateofbirth": "2023-04-09T19:00:00.000Z",
-      "cnic": "3520216685238",
-      "gender": "Female",
+      "dateofbirth": "2023-04-01T19:00:00.000Z",
+      "cnic": "546",
+      "gender": "Male",
       "id": 14
     }
   ]

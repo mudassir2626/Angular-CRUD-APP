@@ -10,60 +10,58 @@ import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
   templateUrl: './std-add-edit.component.html',
   styleUrls: ['./std-add-edit.component.css']
 })
-export class StdAddEditComponent implements OnInit{
-  
-   stdform:FormGroup;
+export class StdAddEditComponent implements OnInit {
 
-   constructor(private _formgroup :FormBuilder,
-    private _stdService:StudentServiceService , 
-    private _dialogref:MatDialogRef<StdAddEditComponent>,
-    @Inject(MAT_DIALOG_DATA) public data:any
-    ){
-    this.stdform= this._formgroup.group({
-      firstname:'',
-      lastname:'',
-      email:'',
-      age:'',
-      dateofbirth:'',
-      cnic:'',
-      gender:''
+  stdform: FormGroup;
+
+  constructor(private _formgroup: FormBuilder,
+    private _stdService: StudentServiceService,
+    private _dialogref: MatDialogRef<StdAddEditComponent>,
+    @Inject(MAT_DIALOG_DATA) public data: any
+  ) {
+    this.stdform = this._formgroup.group({
+      firstname: '',
+      lastname: '',
+      email: '',
+      age: '',
+      dateofbirth: '',
+      cnic: '',
+      gender: ''
     })
-   }
+  }
 
-   ngOnInit(): void {
-     this.stdform.patchValue(this.data);
-   }
+  ngOnInit(): void {
+    this.stdform.patchValue(this.data);
+  }
 
-   OnAddFormSubmitt(){
-    if(this.stdform.valid){
-      if(this.data){
-        this._stdService.UpdateStudentForm(this.data.id,this.stdform.value).subscribe({
-          next:(val:any)=>{
+  OnAddFormSubmitt() {
+    if (this.stdform.valid) {
+      if (this.data) {
+        this._stdService.UpdateStudentForm(this.data.id, this.stdform.value).subscribe({
+          next: (val: any) => {
             console.log(this.stdform.value)
             alert("Student Data Updated");
-            
+
             this._dialogref.close(true);
-            
+
           },
-          error:(err:any)=>{
+          error: (err: any) => {
             console.log(err);
           }
         });
       }
-      else{
+      else {
         this._stdService.AddStudent(this.stdform.value).subscribe({
-          next:(val:any)=>{
+          next: (val: any) => {
             console.log(this.stdform.value)
             alert("Student Data Added Successfully");
-            
             this._dialogref.close(true);
-            
           },
-          error:(err:any)=>{
+          error: (err: any) => {
             console.log(err);
           }
         });
       }
-      }
-      }
+    }
+  }
 }

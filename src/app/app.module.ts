@@ -22,10 +22,11 @@ import { MatSort, MatSortModule } from '@angular/material/sort';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    StdAddEditComponent
+    StdAddEditComponent,
   ],
   imports: [
     BrowserModule,
